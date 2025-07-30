@@ -1,0 +1,111 @@
+{
+  "name": "Forest Elegance",
+  "description": "A natural forest-inspired theme with deep green colors",
+  "version": "1.0.0",
+  "author": "Generated for zsh_setting project",
+  "inspiration": "Deep forest with layered green tones creating a calm, natural workspace",
+  "colors": {
+    "base": {
+      "dark_forest": "#022b22",
+      "medium_forest": "#275d46", 
+      "light_forest": "#569578",
+      "deep_shadow": "#101c13"
+    },
+    "ansi": {
+      "black": "#022b22",
+      "red": "#569578",
+      "green": "#275d46", 
+      "yellow": "#569578",
+      "blue": "#275d46",
+      "magenta": "#569578",
+      "cyan": "#569578",
+      "white": "#569578",
+      "bright_black": "#101c13",
+      "bright_red": "#61a185",
+      "bright_green": "#2f674f",
+      "bright_yellow": "#65b58a",
+      "bright_blue": "#2f674f", 
+      "bright_magenta": "#61a185",
+      "bright_cyan": "#61a185",
+      "bright_white": "#65b58a"
+    },
+    "ui": {
+      "background": "#022b22",
+      "foreground": "#569578",
+      "cursor": "#569578",
+      "cursor_text": "#022b22",
+      "selection": "#275d46",
+      "selected_text": "#569578",
+      "link": "#569578",
+      "bold": "#65b58a",
+      "underline": "#569578",
+      "tab": "#022b22",
+      "badge": "#275d46"
+    }
+  },
+  "terminal_colors": {
+    "256_color_codes": {
+      "dark_forest": 22,
+      "medium_forest": 65,
+      "light_forest": 108,
+      "deep_shadow": 22
+    }
+  },
+  "design_philosophy": {
+    "approach": "Natural forest layers with harmonious green gradients",
+    "mood": "Calm, focused, and connected to nature",
+    "usage": {
+      "background": "Deep forest shade for comfortable long coding sessions",
+      "primary_text": "Fresh forest green for excellent readability", 
+      "directory_display": "Medium forest background with light forest text for clear navigation",
+      "git_indicators": "Natural color progression showing repository health",
+      "prompt_feedback": "Bright greens for success, muted tones for errors"
+    },
+    "accessibility": {
+      "contrast_ratio": "High contrast between dark background and light foreground",
+      "color_blind_friendly": "Uses brightness and saturation differences within green spectrum",
+      "eye_strain": "Deep green background reduces eye fatigue during extended use",
+      "focus": "Monochromatic green palette minimizes visual distractions"
+    }
+  },
+  "powerlevel10k": {
+    "segments": {
+      "os_icon": {"fg": 22, "bg": 108, "description": "Dark on light - clear identification"},
+      "dir": {"fg": 108, "bg": 65, "description": "Light text on medium background - main navigation"},
+      "vcs_clean": {"fg": 22, "bg": 108, "description": "Fresh and clean like new growth"},
+      "vcs_modified": {"fg": 22, "bg": 107, "description": "Subtle indication of changes"},
+      "vcs_untracked": {"fg": 108, "bg": 65, "description": "Deeper forest for attention"},
+      "vcs_staged": {"fg": 108, "bg": 65, "description": "Ready for harvest"},
+      "status": {"fg": 108, "bg": 65, "description": "Clear status indication"},
+      "time": {"fg": 22, "bg": 108, "description": "Dark on light for time visibility"},
+      "prompt_char_ok": {"fg": 108, "description": "Bright green for successful commands"},
+      "prompt_char_error": {"fg": 65, "description": "Muted green for errors"}
+    },
+    "visual_elements": {
+      "frame_color": 65,
+      "gap_filler": "· (middle dot in medium forest)",
+      "separators": "Powerline arrows for smooth transitions",
+      "prompt_symbol": "❯ for modern, clean appearance"
+    }
+  },
+  "nature_inspiration": {
+    "forest_layers": {
+      "canopy": "Light forest (#569578) - where sunlight filters through",
+      "understory": "Medium forest (#275d46) - the main forest body", 
+      "forest_floor": "Dark forest (#022b22) - rich, dark earth",
+      "deep_shadows": "Deep shadow (#101c13) - mysterious forest depths"
+    },
+    "seasonal_metaphor": "Eternal spring forest with fresh growth and established trees"
+  },
+  "installation": {
+    "iterm2": "Import the .itermcolors file via Preferences > Profiles > Colors > Color Presets > Import",
+    "powerlevel10k": "Copy p10k.zsh to your theme directory and source it in your .zshrc",
+    "compatibility": "Works with any terminal supporting 256 colors"
+  },
+  "use_cases": {
+    "programming": "Excellent for long coding sessions with reduced eye strain",
+    "terminal_work": "Clear hierarchy and status indication for system administration",
+    "git_workflow": "Intuitive color coding for version control status",
+    "general_use": "Calming, professional appearance for daily terminal tasks"
+  }
+} 

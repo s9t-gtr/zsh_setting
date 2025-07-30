@@ -1,0 +1,85 @@
+{
+  "name": "Monochrome Elegance",
+  "description": "An elegant monochrome theme based on white color palette",
+  "version": "1.0.0",
+  "author": "Generated for zsh_setting project",
+  "colors": {
+    "base": {
+      "dark": "#1a1d25",
+      "medium": "#6b757d", 
+      "light": "#c8d0d1",
+      "white": "#e8e8e8"
+    },
+    "ansi": {
+      "black": "#1a1d25",
+      "red": "#c8d0d1",
+      "green": "#6b757d", 
+      "yellow": "#e8e8e8",
+      "blue": "#6b757d",
+      "magenta": "#c8d0d1",
+      "cyan": "#c8d0d1",
+      "white": "#e8e8e8",
+      "bright_black": "#6b757d",
+      "bright_red": "#d6dde0",
+      "bright_green": "#7a848c",
+      "bright_yellow": "#f4f4f4",
+      "bright_blue": "#7a848c", 
+      "bright_magenta": "#d6dde0",
+      "bright_cyan": "#d6dde0",
+      "bright_white": "#f4f4f4"
+    },
+    "ui": {
+      "background": "#1a1d25",
+      "foreground": "#e8e8e8",
+      "cursor": "#e8e8e8",
+      "cursor_text": "#1a1d25",
+      "selection": "#6b757d",
+      "selected_text": "#e8e8e8",
+      "link": "#c8d0d1",
+      "bold": "#f4f4f4",
+      "underline": "#c8d0d1",
+      "tab": "#1a1d25",
+      "badge": "#6b757d"
+    }
+  },
+  "terminal_colors": {
+    "256_color_codes": {
+      "dark": 232,
+      "medium": 243,
+      "light": 251,
+      "white": 255
+    }
+  },
+  "design_philosophy": {
+    "approach": "Monochromatic elegance with subtle contrast variations",
+    "usage": {
+      "background": "Darkest shade for comfortable reading",
+      "primary_text": "Brightest shade for maximum readability", 
+      "secondary_text": "Medium shades for hierarchy",
+      "accents": "Light gray for subtle highlights",
+      "selections": "Medium gray for clear indication without distraction"
+    },
+    "accessibility": {
+      "contrast_ratio": "High contrast between background and foreground",
+      "color_blind_friendly": "Relies on brightness differences rather than hue",
+      "eye_strain": "Dark background reduces eye strain in low light"
+    }
+  },
+  "powerlevel10k": {
+    "segments": {
+      "os_icon": {"fg": 232, "bg": 255},
+      "dir": {"fg": 255, "bg": 243},
+      "vcs_clean": {"fg": 232, "bg": 251},
+      "vcs_modified": {"fg": 232, "bg": 251},
+      "vcs_untracked": {"fg": 255, "bg": 243},
+      "status": {"fg": 255, "bg": 243},
+      "time": {"fg": 232, "bg": 255},
+      "prompt_char_ok": {"fg": 251},
+      "prompt_char_error": {"fg": 243}
+    }
+  },
+  "installation": {
+    "iterm2": "Import the .itermcolors file via Preferences > Profiles > Colors > Color Presets > Import",
+    "powerlevel10k": "Copy p10k.zsh to your theme directory and source it in your .zshrc"
+  }
+} 

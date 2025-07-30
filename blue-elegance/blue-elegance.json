@@ -1,0 +1,66 @@
+{
+  "name": "Blue Elegance",
+  "description": "A sophisticated blue-centric theme for iTerm2 & Powerlevel10k based on the palette #7d9aae, #d5ac3b, #e1e6eb, #5f7585.",
+  "version": "1.0.0",
+  "author": "Generated for zsh_setting project",
+  "inspiration": "Calm morning sky and warm sunlight accents, delivering clarity and focus.",
+  "colors": {
+    "base": {
+      "deep_blue": "#5f7585",
+      "medium_blue": "#7d9aae",
+      "accent_gold": "#d5ac3b",
+      "light_silver": "#e1e6eb"
+    },
+    "ansi": {
+      "black": "#5f7585",
+      "red": "#d5ac3b",
+      "green": "#7d9aae",
+      "yellow": "#d5ac3b",
+      "blue": "#7d9aae",
+      "magenta": "#7d9aae",
+      "cyan": "#7d9aae",
+      "white": "#e1e6eb",
+      "bright_black": "#4b6173",
+      "bright_red": "#e5bf4f",
+      "bright_green": "#9fbdcf",
+      "bright_yellow": "#f0c95a",
+      "bright_blue": "#9fbdcf",
+      "bright_magenta": "#9fbdcf",
+      "bright_cyan": "#9fbdcf",
+      "bright_white": "#ffffff"
+    },
+    "ui": {
+      "background": "#5f7585",
+      "foreground": "#e1e6eb",
+      "cursor": "#d5ac3b",
+      "cursor_text": "#5f7585",
+      "selection": "#7d9aae",
+      "selected_text": "#e1e6eb",
+      "link": "#d5ac3b",
+      "bold": "#e1e6eb",
+      "underline": "#d5ac3b",
+      "tab": "#5f7585",
+      "badge": "#d5ac3b"
+    }
+  },
+  "design_philosophy": {
+    "approach": "Combine cool blues for calm reading surface with a single warm gold highlight for interactive elements.",
+    "usage": {
+      "background": "Deep blue (#5f7585) lowers eye strain during long sessions.",
+      "primary_text": "Light silver (#e1e6eb) provides high contrast on dark background.",
+      "directory_display": "Medium blue background with silver text for clear navigation.",
+      "git_indicators": "Gold accent highlights repository state without overwhelming.",
+      "prompt_feedback": "Gold success/error cues stand out instantly against blue canvas."
+    }
+  },
+  "powerlevel10k_guideline": {
+    "dir_bg": "#7d9aae",
+    "dir_fg": "#e1e6eb",
+    "status_ok_bg": "#7d9aae",
+    "status_ok_fg": "#e1e6eb",
+    "status_err_bg": "#d5ac3b",
+    "status_err_fg": "#e1e6eb",
+    "os_icon_bg": "#d5ac3b",
+    "os_icon_fg": "#e1e6eb"
+  }
+} 
